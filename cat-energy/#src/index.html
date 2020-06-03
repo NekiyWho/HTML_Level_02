@@ -5,9 +5,10 @@
         <title>
             Cat Energy
         </title>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.min.css">
     </head>
-    <body>
+    <body class="page__body">
         <header class="page-header">
             <a class="page-header__logo">
                 <img class="page-header__logo-image" src="img/logotype-mobile.svg" width="226" height="30" alt="Cat Energy">
@@ -34,7 +35,8 @@
             <section class="intro">
                 <h2 class="intro__title">Функциональное питание для котов</h2>
                 <p class="intro__text">Занялся собой? Займись котом!</p>
-                <a class="intro__button button">
+                <img src="img/index-can-tablet.jpg" height="267" width="280">
+                <a class="intro__button button" href="#">
                     Подобрать программу
                 </a>
             </section>
@@ -76,36 +78,40 @@
                 </ul> 
             </section>
             <section class="example">
-                <h2 class="example__title">
-                    Живой пример
-                </h2>
-                <p class="example__text">
-                    Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.
-                </p>
-                <table class="example__table">
-                    <tr>
-                        <td class="example__value">
-                            5 Кг
-                        </td>
-                        <td class="example__value">
-                            60 Дней
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="example__field">
-                            снижение веса
-                        </td>
-                        <td class="example__field">
-                            затраченое время
-                        </td>
-                    </tr>
-                </table>
-                <b class="example__expenses">Затраты на питание: 15 000 руб.</b>
-                <img class="example__image" src="img/boris.img" alt="Борис">
-                <label class="example__switch">
-                    <input type="checkbox">
-                    <span class="slider round"></span>
-                </label>
+                <div class="example__block">
+                    <h2 class="example__title">
+                        Живой пример
+                    </h2>
+                    <p class="example__text">
+                        Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.
+                    </p>
+                    <table class="example__table">
+                        <tr>
+                            <td class="example__value">
+                                5 Кг
+                            </td>
+                            <td class="example__value">
+                                60 Дней
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="example__field">
+                                снижение веса
+                            </td>
+                            <td class="example__field">
+                                затраченое время
+                            </td>
+                        </tr>
+                    </table>
+                    <b class="example__expenses">Затраты на питание: 15 000 руб.</b>
+                </div>
+                <div class="example__block">
+                    <img class="example__image" src="img/boris.img" alt="Борис">
+                    <label class="example__switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
             </section>
             <section class="cooperation">
                 <h2 class="cooperation__title">Приглашаем к сотрудничеству дилеров!</h2>
