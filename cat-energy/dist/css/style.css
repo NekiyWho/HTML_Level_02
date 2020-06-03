@@ -99,6 +99,10 @@
 }
 
 @media (min-width: 768px) {
+  .page__body {
+    width: 768px;
+  }
+
   .intro {
     height: 870px;
     background-repeat: no-repeat;

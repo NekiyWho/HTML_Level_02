@@ -67,6 +67,10 @@ $desktop-width: 1200px;
 }
 
 @media (min-width: $tablet-width) {
+    .page__body {
+        width: 768px;
+    }
+
     .intro {
         height: 870px;
         //background-image: url("../img/index-can-tablet.jpg");
