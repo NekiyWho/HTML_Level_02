@@ -83,6 +83,10 @@ $desktop-width: 1200px;
 }
 
 @media (min-width: $desktop-width) {
+    .page__body {
+        width: 1200px;
+    }
+
     .how-it-works__item {
         width: 245px;
     }
